@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cart App with API</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav>
+    <div class="nav-logo">ShopEase</div>
+    <div class="nav-links">
+      <a href="#home" style="color: black; text-decoration: underline;">Home</a>
+      <a href="#products" style="color: black; text-decoration: underline">Products</a>
+      <a href="#about" style="color: black; text-decoration: underline">About</a>
+      <a href="#contact" style="color: black; text-decoration: underline">Contact</a>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero-section">
+    <h1>Welcome to ShopEase</h1>
+    <p>Your favorite store for online shopping</p>
+    <a href="#products" class="btn">Shop Now</a>
+  </section>
+
+  <!-- Cart Icon with notification badge -->
+  <button id="cart-icon">
+    🛒 Cart <span id="cart-count">0</span>
+  </button>
+
+  <!-- Product List -->
+  <div id="product-list"></div>
+
+  <!-- Side Cart Panel -->
+  <div id="cart">
+    <button id="checkout-btn">Checkout</button>
+    <h2>Your Cart</h2>
+    <div id="cart-total"><strong>Total: $0.00</strong></div>
+    <div id="cart-box"></div>
+  </div>
+
+  <!-- Fake payment popup -->
+  <div id="payment-popup" class="popup">
+    <div class="popup-content">
+      <h3>✅ Payment Successful!</h3>
+      <p>Thanks for your purchase.</p>
+      <button onclick="closePopup()">Close</button>
+    </div>
+  </div>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>About Us</h2>
+    <p>We provide high-quality products to make your shopping experience better and easier.</p>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Email us at <strong>support@shopease.com</strong></p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 ShopEase. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
