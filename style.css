@@ -4,32 +4,7 @@ body {
   padding: 0 20px;
 }
 
-/* === Navigation Bar === */
-nav {
-  /* background-color: #3498db; */
-  width: 70%;
-  color: black;
-  text-decoration: underline;
-  padding: 1rem 2rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  position: sticky;
-  top: 0;
-  z-index: 1001;
-}
 
-.nav-logo {
-  font-size: 1.5rem;
-  font-weight: bold;
-}
-
-.nav-links a {
-  color: white;
-  text-decoration: none;
-  margin-left: 1.5rem;
-  font-weight: bold;
-}
 
 /* === Hero Section === */
 .hero-section {
