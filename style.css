@@ -148,7 +148,7 @@ footer {
 #cart {
   position: fixed;
   top: 0;
-  right: -320px;
+  right: -340px;
   width: 300px;
   height: 100vh;
   background: #fefefe;
