@@ -35,7 +35,7 @@ body {
 /* === Hero Section === */
 .hero-section {
   position: relative;
-  background-image: url("https://static.vecteezy.com/system/resources/previews/017/342/708/non_2x/young-women-are-happy-shopping-with-many-bags-of-many-colors-free-photo.jpg");
+  background-image: url("cover.jpeg");
   background-size: cover;
   background-position: center;
   text-align: center;
@@ -77,7 +77,7 @@ body {
       background-image: url("https://t4.ftcdn.net/jpg/02/69/53/07/360_F_269530796_71KTLQB8qBadfS0Pm214BzJgW7zwYDwV.jpg");
       height: 400px;
       width: 400px;
-      border-radius: 50%;
+      /* border-radius: 50%; */
   background-size: cover;
   background-position: center;
     }
