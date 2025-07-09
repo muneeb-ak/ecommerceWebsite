@@ -21,8 +21,8 @@ async function fetchProducts(){
 
 function renderProducts(products) {
   productList.innerHTML = "";
-  
-  products.forEach((product) => {
+  for (let i = 0; i < 10; i++) {
+    const product = products[i];  
     let productBox = document.createElement("div");
     productBox.className = "product";
     productBox.innerHTML = `
@@ -32,10 +32,8 @@ function renderProducts(products) {
       <button onclick="addToCart(${product.id})">Add to Cart</button>
     `;
     productList.appendChild(productBox);
-  });
+  }
 }
-
-
 
 
 
