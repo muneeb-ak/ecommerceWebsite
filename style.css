@@ -35,13 +35,13 @@ body {
 /* === Hero Section === */
 .hero-section {
   position: relative;
-  background-image: url("https://t4.ftcdn.net/jpg/03/13/65/17/360_F_313651795_OUrd7HrFYuxo9LXuuREFvRyIPeEfVSLj.jpg");
+  background-image: url("https://static.vecteezy.com/system/resources/previews/017/342/708/non_2x/young-women-are-happy-shopping-with-many-bags-of-many-colors-free-photo.jpg");
   background-size: cover;
   background-position: center;
   text-align: center;
   padding: 4rem 2rem;
   height: 500px;
-  color: black;
+  color: white;
   overflow: hidden;
   z-index: 1;
 }
@@ -53,7 +53,7 @@ body {
   left: 0;
   height: 100%;
   width: 100%;
-  /* background: rgba(0, 0, 0, 0.5); darkness level */
+  background: rgba(0, 0, 0, 0.7); 
   z-index: -1;
 }
 
@@ -62,8 +62,7 @@ body {
 .hero-section h1 {
   font-size: 2.5rem;
   margin-bottom: 1rem;
-  margin-top: 20%;
-  margin-left: 600px;
+  margin-top: 25%;
 }
 
 .parent{
@@ -97,18 +96,16 @@ body {
 .hero-section p {
   font-size: 1.2rem;
   margin-bottom: 1.5rem;
-    margin-left: 600px;
 }
 
 .btn {
   display: inline-block;
   background-color: #27ae60;
-  color: black;
+  color: rgb(0, 0, 0);
   padding: 0.7rem 1.5rem;
   text-decoration: none;
   border-radius: 4px;
   font-size: 1rem;
-  margin-left: 600px;
   font-weight: 600;
 }
 
