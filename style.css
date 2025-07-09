@@ -33,17 +33,15 @@ body {
   } */
 
 /* === Hero Section === */
-
-
 .hero-section {
   position: relative;
-  background-image: url("cover.jpeg");
+  background-image: url("https://t4.ftcdn.net/jpg/03/13/65/17/360_F_313651795_OUrd7HrFYuxo9LXuuREFvRyIPeEfVSLj.jpg");
   background-size: cover;
   background-position: center;
   text-align: center;
   padding: 4rem 2rem;
-  height: 400px;
-  color: rgb(251, 255, 0);
+  height: 500px;
+  color: black;
   overflow: hidden;
   z-index: 1;
 }
@@ -55,7 +53,7 @@ body {
   left: 0;
   height: 100%;
   width: 100%;
-  background: rgba(0, 0, 0, 0.7); /* darkness level */
+  /* background: rgba(0, 0, 0, 0.5); darkness level */
   z-index: -1;
 }
 
@@ -65,28 +63,56 @@ body {
   font-size: 2.5rem;
   margin-bottom: 1rem;
   margin-top: 20%;
+  margin-left: 600px;
 }
 
+.parent{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 60px;
+     margin-top: 50px;
+}
 
+.img1,.img2{
+      background-image: url("https://t4.ftcdn.net/jpg/02/69/53/07/360_F_269530796_71KTLQB8qBadfS0Pm214BzJgW7zwYDwV.jpg");
+      height: 400px;
+      width: 400px;
+      border-radius: 50%;
+  background-size: cover;
+  background-position: center;
+    }
+
+.img2{
+      background-image: url("https://img.freepik.com/free-photo/full-length-portrait-happy-excited-girl-bright-colorful-clothes-holding-shopping-bags-while-standing-showing-peace-gesture-isolated_231208-5946.jpg?semt=ais_hybrid&w=740");
+  
+}
+
+.text{
+      font-family: 'Times New Roman', Times, serif;
+      margin-left: 30px; 
+      margin-bottom: -20px;
+      text-decoration: underline;
+}
 .hero-section p {
   font-size: 1.2rem;
   margin-bottom: 1.5rem;
+    margin-left: 600px;
 }
 
 .btn {
   display: inline-block;
   background-color: #27ae60;
-  color: white;
+  color: black;
   padding: 0.7rem 1.5rem;
   text-decoration: none;
   border-radius: 4px;
   font-size: 1rem;
+  margin-left: 600px;
+  font-weight: 600;
 }
 
 /* === About & Contact Sections === */
-
-
-
 #about,
 #contact {
   padding: 3rem 2rem;
