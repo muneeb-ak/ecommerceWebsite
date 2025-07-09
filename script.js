@@ -19,20 +19,25 @@ async function fetchProducts(){
      renderProducts(products); 
 }
 
-function renderProducts(products){
-     productList.innerHTML = "";
-     products.forEach((product)=>{
-     let productBox = document.createElement("div");
-     productBox.className = "product";
-     productBox.innerHTML = `
-     <img src = "${product.image}"/>
-     <h4>${product.title}</h4> 
-     <p><strong>$${product.price}</strong></p>
-     <button onclick="addToCart(${product.id})">Add to Cart</button> 
-     `
-     productList.appendChild(productBox); 
-     })     
+function renderProducts(products) {
+  productList.innerHTML = "";
+  
+  products.forEach((product) => {
+    let productBox = document.createElement("div");
+    productBox.className = "product";
+    productBox.innerHTML = `
+      <img src="${product.image}" />
+      <h4>${product.title}</h4>
+      <p><strong>$${product.price}</strong></p>
+      <button onclick="addToCart(${product.id})">Add to Cart</button>
+    `;
+    productList.appendChild(productBox);
+  });
 }
+
+
+
+
 
 function addToCart(productId){
      const existing = cart.find((item)=>{

@@ -1,20 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Cart App with API</title>
   <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
 
 
+<section class="nav">
+  <div><img class="logo"  src="https://static.vecteezy.com/system/resources/thumbnails/019/514/650/small_2x/letter-s-logo-design-for-business-and-company-identity-with-luxury-concept-free-vector.jpg"/>
+</div>
+  <ul class="nav-bar">
+    <li><a href="#">Home</a></li>
+    <li><a href="#trending">Products</a></li>
+    <li><a href="#about">About Us</a></li>
+    <li><a href="#">Contact Us</a></li>
+  </ul>
+</section>
 
   <!-- Hero Section -->
   <section id="home" class="hero-section">
+    
     <h1>Welcome to ShopEase</h1>
     <p>Your favorite store for online shopping</p>
-    <a href="#products" class="btn">Shop Now</a>
+    <a href="#trending" class="btn">Shop Now</a>
   </section>
 
   <!-- Cart Icon with notification badge -->
@@ -23,6 +36,7 @@
   </button>
 
   <!-- Product List -->
+   <div id="trending"><h3 id="text">Trending Now</h3></div>
   <div id="product-list"></div>
 
   <!-- Side Cart Panel -->
@@ -61,4 +75,5 @@
 
   <script src="script.js"></script>
 </body>
+
 </html>
